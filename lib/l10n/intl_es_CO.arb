@@ -8,5 +8,7 @@
       "lastName": {}
     }
   },
-  "textWithPlural": "{howMany, plural, one{Tienes 1 notificación} other{Tienes {howMany} notificaciones}}"
+  "textWithPlural": "{howMany, plural, one{Tienes 1 notificación} other{Tienes {howMany} notificaciones}}",
+  "language": "Idioma",
+  "systemLanguage": "Idioma del sistema"
 }

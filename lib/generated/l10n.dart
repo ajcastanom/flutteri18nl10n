@@ -64,6 +64,24 @@ class AppLocalizations {
       args: [howMany],
     );
   }
+
+  String get language {
+    return Intl.message(
+      'Language',
+      name: 'language',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get systemLanguage {
+    return Intl.message(
+      'System language',
+      name: 'systemLanguage',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppLocalizations> {

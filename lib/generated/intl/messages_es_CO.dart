@@ -27,7 +27,9 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
+    "language" : MessageLookupByLibrary.simpleMessage("Idioma"),
     "simpleText" : MessageLookupByLibrary.simpleMessage("Hola mundo Colombiano"),
+    "systemLanguage" : MessageLookupByLibrary.simpleMessage("Idioma del sistema"),
     "textWithPlaceholder" : m0,
     "textWithPlaceholders" : m1,
     "textWithPlural" : m2
